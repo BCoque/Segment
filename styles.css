@@ -63,7 +63,7 @@ footer p {
 
 /* Style the specific link with class "demo-button" */
 .demo-button {
-    background-color: transparent; /* Make the background transparent */
+    background-color: #ff6b6b; /* Make the background transparent */
     color: white;
     border: none;
     padding: 10px 20px;

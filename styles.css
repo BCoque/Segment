@@ -61,4 +61,20 @@ footer p {
     margin-bottom: 20px;
 }
 
-/* Add your custom styles for other elements */
+/* Style the demo button */
+.demo-button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+}
+
+.demo-button:hover {
+    background-color: #e04f4f;
+}

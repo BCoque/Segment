@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Demo Form</title>
+    <!-- Add any additional CSS or styles if needed -->
+</head>
+<body>
+    <h1>Request Demo</h1>
+    <form action="submit-demo.php" method="POST">
+        <!-- Add form fields here (e.g., name, email, message) -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <!-- Add more form fields as needed -->
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

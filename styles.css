@@ -61,27 +61,21 @@ footer p {
     margin-bottom: 20px;
 }
 
-/* Style the demo button */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-}
-
+/* Style the specific link with class "demo-button" */
 .demo-button {
-    background-color: #ff6b6b;
+    background-color: transparent; /* Make the background transparent */
     color: white;
     border: none;
     padding: 10px 20px;
     font-size: 14px;
     cursor: pointer;
     border-radius: 4px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease-in-out; /* Add transition effect */
 }
 
 .demo-button:hover {
-    background-color: #e04f4f;
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten the background on hover */
 }
+
 

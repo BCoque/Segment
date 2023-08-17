@@ -20,9 +20,19 @@ header {
     color: white;
 }
 
+.logo {
+    margin-right: 20px; /* Add margin to the right of the logo */
+}
+
+.logo img {
+    width: 40px; /* Adjust the width as needed */
+    height: auto;
+}
+
 nav ul {
     list-style: none;
     text-align: center;
+    Margin: 0;
 }
 
 nav ul li {

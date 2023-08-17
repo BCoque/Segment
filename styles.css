@@ -70,10 +70,11 @@ footer p {
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 28px;
     font-weight: bold; /* Add bold font weight */
     cursor: pointer;
     border-radius: 4px;
+    margin-left: auto;
     text-decoration: none; /* Remove underline */
     transition: background-color 0.3s ease-in-out; /* Add transition effect */
 }
